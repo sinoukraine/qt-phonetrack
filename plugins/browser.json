@@ -1,0 +1,74 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.sinopacific.testpush"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "XXXXXXX",
+            "PACKAGE_NAME": "com.sinopacific.testpush"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.sinopacific.testpush"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.sinopacific.testpush"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.sinopacific.testpush"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-background-geolocation-lt": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-support-google-services": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-plugin-sim": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-unique-device-id": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        },
+        "cordova-plugin-buildinfo": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        },
+        "cordova-launch-review": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        },
+        "cordova-sim-plugin": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        }
+    },
+    "dependent_plugins": {
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.sinopacific.phonetrack2"
+        }
+    }
+}

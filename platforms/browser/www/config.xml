@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="29" defaultlocale="en-US" id="com.sinopacific.phonetrack" ios-CFBundleVersion="29" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>PhoneTrack</name>
+    <description>
+        PhoneTrack gps tracking app
+    </description>
+    <author email="support@phonegap.com" href="http://quiktrak.com.au">
+        M2M Global Technology Limited
+    </author>
+    <content src="index.html" />
+    <access allows-arbitrary-loads-for-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" origin="*" />
+    <allow-navigation href="http://localhost:8080/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <splash src="splash.png" />
+    <icon src="icon.png" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="deployment-target" value="10.2" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+</widget>
