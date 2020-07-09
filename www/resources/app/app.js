@@ -790,13 +790,19 @@ let app = new Framework7({
             }else{
                 cordova.plugins.phonedialer.dial(
                   phone,
+                  function(success) { console.log('Dialing succeeded'); },
                   function(err) {
+                      if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
+                      else self.methods.customDialog({text:"Dialer Error:" + err});
+                  },
+                  false
+                  /*function(err) {
                       if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
                       else self.methods.customDialog({text:"Dialer Error:" + err});
                   },
                   function(success) {
                       console.log('success')
-                  }
+                  }*/
                 );
             }
         },
