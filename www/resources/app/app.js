@@ -795,7 +795,7 @@ let app = new Framework7({
                       if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
                       else self.methods.customDialog({text:"Dialer Error:" + err});
                   },
-                  false
+                  true
                   /*function(err) {
                       if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
                       else self.methods.customDialog({text:"Dialer Error:" + err});
