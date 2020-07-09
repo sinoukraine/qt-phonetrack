@@ -780,7 +780,25 @@ let app = new Framework7({
             }
         },
         callToPhone: function(phone){
-            window.open('tel:'+phone, '_system');
+            let self = this;
+            //window.open('tel:'+phone, '_system');
+
+            if(!cordova || !cordova.plugins || !cordova.plugins.phonedialer){
+                //self.methods.customDialog({text:"Phone dialing plugin not found"});
+                //return;
+                window.open('tel:'+phone, '_system');
+            }else{
+                cordova.plugins.phonedialer.dial(
+                  phone,
+                  function(err) {
+                      if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
+                      else self.methods.customDialog({text:"Dialer Error:" + err});
+                  },
+                  function(success) {
+                      console.log('success')
+                  }
+                );
+            }
         },
 
         setGeolocationPlugin: function(){

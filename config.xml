@@ -121,7 +121,7 @@
 	<plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.6.4"/>
 	<plugin name="cordova-background-geolocation-lt" source="npm" spec="3.7.0" />
 	<plugin name="cordova-plugin-safariviewcontroller" source="npm" spec="1.6.0"/>
-    <plugin name="cordova-plugin-phone-call" source="npm" spec="1.0.7" />
+    <plugin name="cordova-plugin-phone-call" source="npm" spec="1.1.3" />
 
 
 	<!--<plugin name="phonegap-plugin-push" source="npm" spec="2.3.0"> 
