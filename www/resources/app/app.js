@@ -1140,20 +1140,20 @@ let SMSHelper = {
             }
         };
 //alert(window.permissions.SEND_SMS);
-        sms.hasPermission(function (hasPermission) {
-            alert(hasPermission);
+        /*sms.hasPermission(function (hasPermission) {
+            //alert(hasPermission);
             if (!hasPermission){
                 sms.requestPermission(function() {
-                    alert('[OK] Permission accepted')
+                    //alert('[OK] Permission accepted')
                 }, function(error) {
-                    alert('[WARN] Permission not accepted')
+                    //alert('[WARN] Permission not accepted')
                     // Handle permission not accepted
                 })
             }
 
         }, function (e) {
             alert('Something went wrong:' + e);
-        });
+        });*/
         sms.send(data.number, data.message, options, function () {
             app.methods.customNotification({text: LANGUAGE.PROMPT_MSG027});
             if (data.callback instanceof Function) {
