@@ -788,13 +788,14 @@ let app = new Framework7({
                 //return;
                 window.open('tel:'+phone, '_system');
             }else{
-                cordova.plugins.phonedialer.dial(
+                cordova.plugins.phonedialer.call(
                   phone,
                   function(success) { console.log('Dialing succeeded'); },
                   function(err) {
                       if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
                       else self.methods.customDialog({text:"Dialer Error:" + err});
                   },
+                  true,
                   true
                   /*function(err) {
                       if (err == "empty") self.methods.customDialog({text:"Unknown phone number"});
