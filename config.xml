@@ -1,13 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
 	id="com.qt.phonetrack" 
-	version="1.0.1"
-	android-versionCode="2"
-    ios-CFBundleVersion="2"
+	version="1.0.11"
+	android-versionCode="30"
+    ios-CFBundleVersion="30"
 	xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:cdv="http://cordova.apache.org/ns/1.0"  	
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	defaultlocale="en-US">
+    <!-- 
+        ios     id="com.sinopacific.phonetrack"  
+        android id="com.qt.phonetrack" 
+        -->
     <name>QT PhoneTrack</name>
     <description>
         QT PhoneTrack gps tracking app
@@ -119,7 +123,7 @@
     <plugin name="cordova-sms-plugin" source="npm" spec="1.0.0" />    
 	<plugin name="cordova-plugin-android-permissions" source="npm" spec="1.0.2" />
 	<plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.6.4"/>
-	<plugin name="cordova-background-geolocation-lt" source="npm" spec="3.7.0" />
+	<plugin name="cordova-background-geolocation-lt" source="npm" spec="3.8.1" />
 	<plugin name="cordova-plugin-safariviewcontroller" source="npm" spec="1.6.0"/>
     <plugin name="cordova-plugin-phone-call" source="npm" spec="1.1.3" />
 
