@@ -123,7 +123,7 @@
     <plugin name="cordova-sms-plugin" source="npm" spec="1.0.0" />    
 	<plugin name="cordova-plugin-android-permissions" source="npm" spec="1.0.2" />
 	<plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.6.4"/>
-	<plugin name="cordova-background-geolocation-lt" source="npm" spec="3.8.1" />
+	<plugin name="cordova-background-geolocation-lt" source="npm" spec="3.7.0" />
 	<plugin name="cordova-plugin-safariviewcontroller" source="npm" spec="1.6.0"/>
     <plugin name="cordova-plugin-phone-call" source="npm" spec="1.1.3" />
 
